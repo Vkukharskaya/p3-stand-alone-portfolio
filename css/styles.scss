@@ -9,11 +9,16 @@ body {
     background: #ccc;
 }
 
-h1 {
+ h1 {
+    padding-top: 1em; 
     font-family: 'Quicksand', sans-serif;
-    font-weight: lighter; 
     text-align: center;
     font-size: 3em; 
+}
+
+div.lg-sub-html {
+    font-family: 'Quicksand', sans-serif;
+
 }
 
 // Layout
