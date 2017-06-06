@@ -29,7 +29,7 @@ span#lg-counter-current, span#lg-counter-all {
 main {
     background: #fff;
     margin: 0 auto;
-    width: 90%;
+    width: 80%;
 }
 
 // RWD header img
@@ -41,7 +41,7 @@ main header img {
 
 // Random Backgrounds
 .bg0 {
-  background: #64aeb4;
+  background: linear-gradient(#64aeb4, #d3eef0) ;
 }
 
 .bg1 {
@@ -57,13 +57,13 @@ main header img {
 article {
   display: flex;
   flex-wrap: wrap;
-    align-items: center; 
+    align-items: flex-start; 
   justify-content: space-around;
 }
 
 article figure {
   background: white;
-  padding: 2em;
+  padding: 1em;
   width: 40em;
   align-content: center;
   display: flex;
